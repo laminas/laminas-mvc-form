@@ -1,26 +1,41 @@
 {
-    "name": "zendframework/zend-mvc-form",
-    "description": "Metapackage with all requirements needed to use zend-form with zend-mvc.",
+    "name": "laminas/laminas-mvc-form",
+    "description": "Metapackage with all requirements needed to use laminas-form with laminas-mvc.",
     "type": "metapackage",
     "license": "BSD-3-Clause",
     "keywords": [
-        "zf2",
+        "laminas",
         "mvc",
         "form"
     ],
-    "homepage": "https://github.com/zendframework/zend-mvc-form",
+    "homepage": "https://laminas.dev",
+    "support": {
+        "docs": "https://docs.laminas.dev/laminas-mvc-form/",
+        "issues": "https://github.com/laminas/laminas-mvc-form/issues",
+        "source": "https://github.com/laminas/laminas-mvc-form",
+        "rss": "https://github.com/laminas/laminas-mvc-form/releases.atom",
+        "chat": "https://laminas.dev/chat",
+        "forum": "https://discourse.laminas.dev"
+    },
+    "config": {
+        "sort-packages": true
+    },
     "extra": {
         "branch-alias": {
             "dev-master": "1.0-dev"
         },
-        "zf": {
-            "component": "Zend\\Form"
+        "laminas": {
+            "component": "Laminas\\Form"
         }
     },
     "require": {
         "php": "^5.6 || ^7.0",
-        "zendframework/zend-code": "^2.6.3 || ^3.0.2",
-        "zendframework/zend-form": "^2.8.4",
-        "zendframework/zend-i18n": "^2.7.2"
+        "laminas/laminas-code": "^2.6.3 || ^3.0.2",
+        "laminas/laminas-form": "^2.8.4",
+        "laminas/laminas-i18n": "^2.7.2",
+        "laminas/laminas-zendframework-bridge": "^1.0"
+    },
+    "replace": {
+        "zendframework/zend-mvc-form": "self.version"
     }
 }

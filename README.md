@@ -1,23 +1,23 @@
-# zend-mvc-form
+# laminas-mvc-form
 
-zend-mvc-form is a Composer metapackage that provides a single package for
-installing all packages necessary to fully use [zend-form](https://zendframework.github.io/zend-form)
-under [zend-mvc](https://zendframework.github.io/zend-mvc), including:
+laminas-mvc-form is a Composer metapackage that provides a single package for
+installing all packages necessary to fully use [laminas-form](https://docs.laminas.dev/laminas-form)
+under [laminas-mvc](https://docs.laminas.dev/laminas-mvc), including:
 
-- [zendframework/zend-code](https://zendframework.github.io/zend-code/)
-- [zendframework/zend-form](https://zendframework.github.io/zend-form/)
-- [zendframework/zend-i18n](https://zendframework.github.io/zend-i18n/)
+- [laminas/laminas-code](https://docs.laminas.dev/laminas-code/)
+- [laminas/laminas-form](https://docs.laminas.dev/laminas-form/)
+- [laminas/laminas-i18n](https://docs.laminas.dev/laminas-i18n/)
 
 Install using:
 
 ```console
-$ composer require zendframework/zend-mvc-form
+$ composer require laminas/laminas-mvc-form
 ```
 
 > ### i18n integration
 >
-> This package only requires zend-i18n, and not [zend-mvc-i18n](https://zendframework.github.io/zend-mvc-i18n).
-> This is to allow providing the bare minimum required to use zend-form, as its
-> base view helper extends from the base zend-i18n view helper. If you
+> This package only requires laminas-i18n, and not [laminas-mvc-i18n](https://docs.laminas.dev/laminas-mvc-i18n).
+> This is to allow providing the bare minimum required to use laminas-form, as its
+> base view helper extends from the base laminas-i18n view helper. If you
 > want to provide translations for your form elements, please install
-> zend-mvc-i18n as well.
+> laminas-mvc-i18n as well.
