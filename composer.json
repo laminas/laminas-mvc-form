@@ -10,7 +10,6 @@
     ],
     "homepage": "https://laminas.dev",
     "support": {
-        "docs": "https://docs.laminas.dev/laminas-mvc-form/",
         "issues": "https://github.com/laminas/laminas-mvc-form/issues",
         "source": "https://github.com/laminas/laminas-mvc-form",
         "rss": "https://github.com/laminas/laminas-mvc-form/releases.atom",
