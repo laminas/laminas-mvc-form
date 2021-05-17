@@ -1,20 +1,26 @@
 {
     "name": "laminas/laminas-mvc-form",
-    "description": "Metapackage with all requirements needed to use laminas-form with laminas-mvc.",
     "type": "metapackage",
-    "license": "BSD-3-Clause",
+    "description": "Metapackage with all requirements needed to use laminas-form with laminas-mvc.",
     "keywords": [
         "laminas",
         "mvc",
         "form"
     ],
     "homepage": "https://laminas.dev",
-    "support": {
-        "issues": "https://github.com/laminas/laminas-mvc-form/issues",
-        "source": "https://github.com/laminas/laminas-mvc-form",
-        "rss": "https://github.com/laminas/laminas-mvc-form/releases.atom",
-        "chat": "https://laminas.dev/chat",
-        "forum": "https://discourse.laminas.dev"
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": "^7.3 || ~8.0.0",
+        "laminas/laminas-code": "^3.5.0",
+        "laminas/laminas-form": "^2.16.3",
+        "laminas/laminas-i18n": "^2.11.1",
+        "laminas/laminas-zendframework-bridge": "^1.2.0"
+    },
+    "replace": {
+        "zendframework/zend-mvc-form": "^1.0.0"
+    },
+    "conflict": {
+        "laminas/laminas-code": "<3.5.0 || >=4.0.0"
     },
     "config": {
         "sort-packages": true
@@ -24,17 +30,11 @@
             "component": "Laminas\\Form"
         }
     },
-    "require": {
-        "php": "^7.3 || ~8.0.0",
-        "laminas/laminas-code": "^3.5.0",
-        "laminas/laminas-form": "^2.16.3",
-        "laminas/laminas-i18n": "^2.11.1",
-        "laminas/laminas-zendframework-bridge": "^1.2.0"
-    },
-    "conflict": {
-        "laminas/laminas-code": "<3.5.0 || >=4.0.0"
-    },
-    "replace": {
-        "zendframework/zend-mvc-form": "^1.0.0"
+    "support": {
+        "issues": "https://github.com/laminas/laminas-mvc-form/issues",
+        "forum": "https://discourse.laminas.dev",
+        "chat": "https://laminas.dev/chat",
+        "source": "https://github.com/laminas/laminas-mvc-form",
+        "rss": "https://github.com/laminas/laminas-mvc-form/releases.atom"
     }
 }
