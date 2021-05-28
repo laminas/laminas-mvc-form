@@ -25,14 +25,9 @@
         }
     },
     "require": {
-        "php": "^7.3 || ~8.0.0",
-        "laminas/laminas-code": "^3.5.0",
-        "laminas/laminas-form": "^2.16.3",
-        "laminas/laminas-i18n": "^2.11.1",
-        "laminas/laminas-zendframework-bridge": "^1.2.0"
-    },
-    "conflict": {
-        "laminas/laminas-code": "<3.5.0 || >=4.0.0"
+        "laminas/laminas-code": "^3.5.1",
+        "laminas/laminas-form": "^2.17.0",
+        "laminas/laminas-i18n": "^2.11.1"
     },
     "replace": {
         "zendframework/zend-mvc-form": "^1.0.0"
