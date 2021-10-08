@@ -4,7 +4,7 @@ laminas-mvc-form is a Composer metapackage that provides a single package for
 installing all packages necessary to fully use [laminas-form](https://docs.laminas.dev/laminas-form)
 under [laminas-mvc](https://docs.laminas.dev/laminas-mvc), including:
 
-- [laminas/laminas-code](https://docs.laminas.dev/laminas-code/)
+- [doctrine/annotations](https://www.doctrine-project.org/projects/annotations.html)
 - [laminas/laminas-form](https://docs.laminas.dev/laminas-form/)
 - [laminas/laminas-i18n](https://docs.laminas.dev/laminas-i18n/)
 
