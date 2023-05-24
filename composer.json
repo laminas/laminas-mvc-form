@@ -19,11 +19,6 @@
     "config": {
         "sort-packages": true
     },
-    "extra": {
-        "laminas": {
-            "component": "Laminas\\Form"
-        }
-    },
     "require": {
         "doctrine/annotations": "^1.14.3 || ^2.0.1",
         "laminas/laminas-form": "^3.10.1",
